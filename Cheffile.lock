@@ -1,0 +1,12 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef-client (1.1.2)
+    mysql (1.2.4)
+      openssl (>= 0.0.0)
+    openssl (1.0.0)
+
+DEPENDENCIES
+  chef-client (>= 0)
+  mysql (>= 0)
+
